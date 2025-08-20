@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es2015",             // 编译目标 (支持 Map, Set 等)
+    "lib": ["es2015", "dom"],       // 包含浏览器相关的 API
+    "outDir": "./dist",             // 输出目录
+    "strict": true                  // 严格模式
+  },
+  "include": ["./asserts/**/*"]     // 要编译的 ts 文件目录
+}

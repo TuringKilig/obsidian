@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 100px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+/* 功德+1 的样式 */
+.gongde {
+  position: absolute;
+  color: red;
+  font-weight: bold;
+  animation: rise 1s forwards;
+}
+
+/* 动画：上升并消失 */
+@keyframes rise {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+}
